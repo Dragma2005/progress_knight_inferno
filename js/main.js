@@ -473,7 +473,21 @@ function togglePause() {
 }
 
 function toggleHalfSpeed() {
-    gameData.halfSpeed = !gameData.halfSpeed
+    gameData.normalSpeed = false
+    gameData.doubleSpeed = false
+    gameData.halfSpeed = true
+}
+
+function toggleNormalSpeed() {
+    gameData.halfSpeed = false
+    gameData.doubleSpeed = false
+    gameData.normalSpeed = true
+}
+
+function toggleDoubleSpeed() {
+    gameData.halfSpeed = false
+    gameData.normalSpeed = false
+    gameData.doubleSpeed = true
 }
 
 function forceAutobuy() {
