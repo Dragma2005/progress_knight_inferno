@@ -41,6 +41,7 @@
 
 
     paused: false,
+    halfSpeed: false;
     timeWarpingEnabled: true,
 
     rebirthOneCount: 0,
