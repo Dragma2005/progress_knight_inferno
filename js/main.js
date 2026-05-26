@@ -472,6 +472,10 @@ function togglePause() {
     gameData.paused = !gameData.paused
 }
 
+function toggleHalfSpeed() {
+    gameData.halfSpeed = !gameData.halfSpeed
+}
+
 function forceAutobuy() {
     autoBuyEnabled = true
 }
