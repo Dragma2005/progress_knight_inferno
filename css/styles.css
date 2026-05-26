@@ -203,6 +203,10 @@ button:focus {
     border: 0.1em solid blue;
 }
 
+.game-halfspeed {
+    border: 0.1em solid blue;
+}
+
 .dark-matter-title {
     color:gold;
     border-bottom: 0.1em solid goldenrod;
